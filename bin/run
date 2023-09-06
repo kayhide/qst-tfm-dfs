@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -eu
+
+DST_DIR=./docs
+
+rm -rf $DST_DIR
+cp -r $SRC_DIR/dist $DST_DIR
+
+echo ok
